@@ -37,3 +37,23 @@
         padding: 12px 24px;
     }
 }
+
+/* Social */
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-icons__icon {
+    width: 48px;
+    height: 48px;
+    padding: 11px;
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--border-8);
+    text-decoration: none;
+}
+
+.social-icons__icon:hover {
+    background-color: var(--color-bg-medium);
+}
