@@ -21,6 +21,7 @@
     line-height: 120%;
     cursor: pointer;
     display: inline-block;
+    text-align: center;
 }
 
 .button_primary {
@@ -87,6 +88,12 @@
     font-size: 46px;
     line-height: 120%;
     color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+    .headling__bottom {
+        font-size: 34px;
+    }
 }
 
 /* Paragraph */
@@ -166,4 +173,19 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+    .post {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .post__stat {
+        font-size: 14px;
+    }
+
+    .post__title {
+        font-size: 21px;
+    }
 }
