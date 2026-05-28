@@ -16,6 +16,7 @@
     background: none;
     border: none;
     border-radius: var(--border-10);
+    font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 120%;
@@ -188,4 +189,40 @@
     .post__title {
         font-size: 21px;
     }
+}
+
+/* Chip */
+.chip {
+    padding: 8px 16px;
+    border: 1px solid var(--color-stroke);
+    border-radius: var(--border-10);
+    background: none;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.chip:hover {
+    background-color: var(--color-bg-medium);
+}
+
+.chip_active {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+}
+
+.chip_active:hover {
+    border-color: var(--color-primary-hover);
+    background-color: var(--color-primary-hover);
+}
+
+/* Course Card */
+.course-card {
+    background: var(--color-bg-medium);
+    border-radius: var(--border-10);
+    color: var(--color-text);
 }
