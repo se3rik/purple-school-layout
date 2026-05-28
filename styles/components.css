@@ -204,6 +204,7 @@
     text-align: center;
     color: var(--color-text);
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .chip:hover {
